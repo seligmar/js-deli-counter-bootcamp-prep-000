@@ -15,7 +15,8 @@ function nowServing(line, name) {
 }
 
 function currentLine(line) {
-   var katzDeli = []; {
+   var katzDeli = []; 
+   
    for (var i = 0; i < line.length; i++) 
     katzDeli.push(`${i + 1}. ${line[i]},`); 
     while (i < line.length); }  
